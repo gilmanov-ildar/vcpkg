@@ -6,7 +6,7 @@ set(QT_UPDATE_VERSION 0) # Switch to update qt and not build qt. Creates a file 
 
 set(QT_PORT_LIST base 3d activeqt charts connectivity datavis3d declarative gamepad graphicaleffects imageformats location macextras mqtt multimedia networkauth
                  purchasing quickcontrols quickcontrols2 remoteobjects script scxml sensors serialport speech svg tools virtualkeyboard webchannel websockets
-                 webview winextras xmlpatterns)
+                 webview winextras xmlpatterns webengine)
 
 set(QT_HASH_qt5-base                9a95060318cadfcd6dace6b28353fa868a8dcfe9def0bd884edf7d9f72606bae625de0269323a94b81d594a6c398106c266304106329b79c7dae4e5b88269660)
 set(QT_HASH_qt5-3d                  8cc23417b4a41bf9d19052e05c7e3be8773be062f1f5998a7784573ef9c35a04da50ce67a65b3709065bb3cf243aac8ede4bea60f0420a5400cbe6c9c7bdf05b)
@@ -40,6 +40,7 @@ set(QT_HASH_qt5-websockets          970ad232ad1258630404d5e7347721505a780497e177
 set(QT_HASH_qt5-webview             310beedf88cefc05458e99838e7cb71971aa24ba6c460ff3da804c2ab7f56167ca1067ddca71ee29ced32ea974fe405261f24c8bbcac0c7b69063d7c4e38a4de)
 set(QT_HASH_qt5-winextras           053ca5f60c7946f6409ef34094b4a7d1431039407a5195e539e8edfda795da20fc695ceec58ae0df15e4dcc597047518d06a424d11fb4aaf6ae82f1d4badab33)
 set(QT_HASH_qt5-xmlpatterns         30b25e152970bfe51fcdeffa43d11dd51496e5ea6a5da644b13fa0ce4835302ebec651c1ecdcf9590c6689598cea9bd63748aab4ee0ec69f9155dc310a7c04c3)
+set(QT_HASH_qt5-webengine           b485d37dca14f1cf4adf01bd8b1ae52c1d4916d7acf6ed210bc9feaece8efc2aa6cee8a3ef9174b50b767e373379c6a18d14db4426ac53a8c27d2d7b222826df)
 
 if(QT_UPDATE_VERSION)
     message(STATUS "Running Qt in automatic version port update mode!")

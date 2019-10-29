@@ -2,3 +2,7 @@ Source: qt5-svg
 Version: 5.12.5
 Description: Qt5 SVG Module - provides classes for displaying the contents of SVG files
 Build-Depends:  qt5-base
+
+Feature: latest
+Build-Depends: qt5-base[latest]
+Description: Build latest qt version (5.13.1) instead of LTS
