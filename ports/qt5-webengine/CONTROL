@@ -1,0 +1,8 @@
+Source: qt5-webengine
+Version: 5.12.5-1
+Description: Qt5 WebEngine module - Provides a way to display web content in a QWidgets application without necessarily including a full web browser stack by using native APIs where it makes sense.
+Build-Depends:  qt5-base, qt5-declarative
+
+Feature: latest
+Build-Depends: qt5-base[latest], qt5-declarative[latest]
+Description: Build latest qt version (5.13.1) instead of LTS
