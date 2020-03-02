@@ -5,4 +5,4 @@ Build-Depends:  qt5-base, qt5-imageformats, qt5-svg
 
 Feature: latest
 Build-Depends: qt5-base[latest], qt5-imageformats[latest], qt5-svg[latest]
-Description: Build latest qt version (5.13.1) instead of LTS
+Description: Build latest qt version (5.14.1) instead of LTS

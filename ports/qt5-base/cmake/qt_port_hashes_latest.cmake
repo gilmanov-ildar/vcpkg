@@ -1,6 +1,6 @@
 #Every update requires an update of these hashes and the version within the control file of each of the 32 ports. 
 #So it is probably better to have a central location for these hashes and let the ports update via a script
-set(QT_MAJOR_MINOR_VER 5.13)
+set(QT_MAJOR_MINOR_VER 5.14)
 set(QT_PATCH_VER 1)
 set(QT_UPDATE_VERSION 0) # Switch to update qt and not build qt. Creates a file cmake/qt_new_hashes.cmake in qt5-base with the new hashes.
 
